@@ -13,10 +13,17 @@ struct ShowRowView: View {
       Text(place.placeName)
         .font(.headline)
       
-      Text(place.address)
-        .font(.subheadline)
-        .foregroundStyle(.secondary)
-        .padding(.bottom, 10)
+      if place.address.hasPrefix("http") {
+        Label(AppStrings.location, systemImage: AppStrings.Icons.locationIcon)
+          .font(.subheadline)
+          .foregroundStyle(.secondary)
+          .padding(.bottom, 10)
+      } else {
+        Text(place.address)
+          .font(.subheadline)
+          .foregroundStyle(.secondary)
+          .padding(.bottom, 10)
+      }
       
       HStack {
         Text(place.category)

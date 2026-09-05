@@ -92,6 +92,7 @@ public enum AppStrings {
   // ShowRowView
   public static let hyphen: LocalizedStringResource = "-"
   public static let bullet: LocalizedStringResource = "•"
+  public static let location: LocalizedStringResource = "Location"
   
   // UpcomingView
   public static let nothingComingUp: LocalizedStringResource = "Nothing coming up"
@@ -123,6 +124,7 @@ public enum AppStrings {
     public static let calendar = "calendar"
     public static let mapFill = "map.fill"
     public static let starCircleFill = "star.circle.fill"
+    public static let locationIcon = "mappin.and.ellipse"
   }
   
   // Empty string
