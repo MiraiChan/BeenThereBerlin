@@ -117,6 +117,7 @@ struct AddEditShowView: View {
           Button(AppStrings.add) {
             viewModel.addSetlistEntry()
           }
+          .foregroundStyle(Color.accentColor)
           .disabled(viewModel.newActivityEntry
             .trimmingCharacters(in: .whitespaces).isEmpty)
         }
@@ -141,6 +142,7 @@ struct AddEditShowView: View {
             viewModel.save(to: modelContext, existing: existingPlace)
             dismiss()
           }
+          .tint(Color.accentColor)
           .disabled(!viewModel.isValid)
         }
       }

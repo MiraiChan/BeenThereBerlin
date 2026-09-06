@@ -83,8 +83,8 @@ public enum AppStrings {
   // ShowDetailView
   public static let deletePlaceTitle: LocalizedStringResource = "Delete Place"
   public static let deletePlaceQuestion: LocalizedStringResource = "Delete Place?"
-  public static let noActivitiesAdded: LocalizedStringResource = "No Activities Added"
-  public static let noNotesAdded: LocalizedStringResource = "No notes added!"
+  public static let noActivitiesAdded: LocalizedStringResource = "No activities, go to Edit"
+  public static let noNotesAdded: LocalizedStringResource = "No notes, go to Edit"
   public static func permanentlyRemove(_ placeName: String) -> LocalizedStringResource {
     return LocalizedStringResource("This will permanently remove \(placeName) from your history")
   }

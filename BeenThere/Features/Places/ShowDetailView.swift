@@ -74,6 +74,7 @@ struct ShowDetailView: View {
         LabeledContent(AppStrings.date, value: place.date.formatted(date: .long, time: .omitted))
         LabeledContent(AppStrings.status) {
           Text(place.status.localizedTitle)
+            .foregroundStyle(Color.accentColor)
         }
       }
       .appRowBackground()
@@ -119,24 +120,28 @@ struct ShowDetailView: View {
         }
       }
       .appRowBackground()
+      
+      Section {
+        Button {
+          showingDeleteAlert = true
+        } label: {
+          HStack {
+            Text(AppStrings.deletePlaceTitle)
+            Spacer()
+            Image(systemName: "trash")
+          }
+          .font(.body)
+          .foregroundStyle(Color.appPrimary)
+        }
+      }
+      .listRowBackground(Color.accentColor)
     }
     .scrollContentBackground(.hidden)
     .background(Color.appPrimary)
     .toolbar {
       ToolbarItem(placement: .primaryAction) {
-        Menu {
-          Button(AppStrings.editPlace) {
-            showingEditSheet = true
-          }
-          Divider()
-          Button {
-            showingDeleteAlert = true
-          } label: {
-            Label(AppStrings.deletePlaceTitle, systemImage: "trash")
-              .tint(Color.accentColor)
-          }
-        } label: {
-          Image(systemName: AppStrings.Icons.ellipsisCircle)
+        Button(AppStrings.editPlace) {
+          showingEditSheet = true
         }
       }
     }
