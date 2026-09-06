@@ -1,6 +1,6 @@
 //
 //  AppColors.swift
-//  BeenThereBerlin
+//  BeenThere
 //
 
 import SwiftUI

@@ -1,6 +1,6 @@
 //
 //  SettingsViewModel.swift
-//  BeenThereBerlin
+//  BeenThere
 //
 //  Created by Almira Khafizova on 04.08.26.
 //

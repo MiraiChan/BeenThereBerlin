@@ -1,6 +1,6 @@
 //
 //  MarkAttendedSheet.swift
-//  BeenThereBerlin
+//  BeenThere
 //
 //  Created by Almira Khafizova on 27.07.26.
 //

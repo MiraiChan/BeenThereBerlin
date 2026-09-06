@@ -1,6 +1,6 @@
 //
 //  OnboardingPageView.swift
-//  BeenThereBerlin
+//  BeenThere
 //
 //  Created by Almira Khafizova on 02.08.26.
 //

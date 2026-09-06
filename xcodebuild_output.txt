@@ -1,5 +1,5 @@
 Command line invocation:
-    /Users/miraichan/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -scheme BeenThereBerlin -destination "platform=iOS Simulator,name=iPhone 17"
+    /Users/miraichan/Downloads/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -scheme BeenThere -destination "platform=iOS Simulator,name=iPhone 17"
 
 ComputePackagePrebuildTargetDependencyGraph
 
@@ -28,13 +28,13 @@ ExecuteExternalTool /Users/miraichan/Downloads/Xcode.app/Contents/Developer/usr/
 
 ExecuteExternalTool /Users/miraichan/Downloads/Xcode.app/Contents/Developer/usr/bin/xcstringstool compile --dry-run --output-directory /Users/miraichan/Library/Developer/Xcode/DerivedData/BeenThere-hlcdnonzvmujhybrgfrcbjhsczes/Build/Intermediates.noindex/BeenThere.build/Debug-iphonesimulator/PlaceShareExtension.build /Users/miraichan/Desktop/NewProject/BeenThere/PlaceShareExtension/Localizable.xcstrings
 
-ExecuteExternalTool /Users/miraichan/Downloads/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Resources/Assets.xcassets /Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Resources/BeenThereLogo.icon
+ExecuteExternalTool /Users/miraichan/Downloads/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Resources/Assets.xcassets /Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Resources/BeenThereLogo.icon
 
 ExecuteExternalTool /Users/miraichan/Downloads/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
 
 ExecuteExternalTool /Users/miraichan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
 
-ExecuteExternalTool /Users/miraichan/Downloads/Xcode.app/Contents/Developer/usr/bin/xcstringstool compile --dry-run --output-directory /Users/miraichan/Library/Developer/Xcode/DerivedData/BeenThere-hlcdnonzvmujhybrgfrcbjhsczes/Build/Intermediates.noindex/BeenThere.build/Debug-iphonesimulator/BeenThere.build /Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Resources/Localizable.xcstrings
+ExecuteExternalTool /Users/miraichan/Downloads/Xcode.app/Contents/Developer/usr/bin/xcstringstool compile --dry-run --output-directory /Users/miraichan/Library/Developer/Xcode/DerivedData/BeenThere-hlcdnonzvmujhybrgfrcbjhsczes/Build/Intermediates.noindex/BeenThere.build/Debug-iphonesimulator/BeenThere.build /Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Resources/Localizable.xcstrings
 
 ExecuteExternalTool /Users/miraichan/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
 
@@ -783,18 +783,18 @@ Linting 'AppRowStyle.swift' (5/24)
 Linting 'AppColors.swift' (6/24)
 Linting 'AddEditShowView.swift' (7/24)
 Linting 'ShowDetailView.swift' (8/24)
-Linting 'BeenThereBerlinApp.swift' (2/24)
+Linting 'BeenThereApp.swift' (2/24)
 Linting 'ShareViewModel.swift' (1/24)
 /Users/miraichan/Desktop/NewProject/BeenThere/PlaceShareExtension/ShareViewController.swift:88:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 158 characters (line_length)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Features/Places/ShowDetailView.swift:25:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 193 characters (line_length)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Features/Places/ShowDetailView.swift:25:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 193 characters (line_length)
 Linting 'AttendedView.swift' (9/24)
 Linting 'AttendedViewModel.swift' (12/24)
 Linting 'AddEditShowViewModel.swift' (11/24)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Features/Places/AddEditShowView.swift:61:45: warning: Colon Spacing Violation: Colons should be next to the identifier when specifying a type and next to the key in dictionary literals (colon)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Features/Places/AddEditShowView.swift:39:18: warning: Multiple Closures with Trailing Closure Violation: Trailing closure syntax should not be used when passing more than one closure argument (multiple_closures_with_trailing_closure)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Features/Places/AddEditShowView.swift:61:45: warning: Colon Spacing Violation: Colons should be next to the identifier when specifying a type and next to the key in dictionary literals (colon)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Features/Places/AddEditShowView.swift:39:18: warning: Multiple Closures with Trailing Closure Violation: Trailing closure syntax should not be used when passing more than one closure argument (multiple_closures_with_trailing_closure)
 Linting 'ShowRowView.swift' (13/24)
 Linting 'UpcomingView.swift' (10/24)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/BeenThereBerlinApp.swift:18:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 156 characters (line_length)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/BeenThereApp.swift:18:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 156 characters (line_length)
 Linting 'MarkAttendedSheet.swift' (14/24)
 /Users/miraichan/Desktop/NewProject/BeenThere/PlaceShareExtension/ShareViewModel.swift:24:5: warning: Cyclomatic Complexity Violation: Function should have complexity 10 or less; currently complexity is 13 (cyclomatic_complexity)
 /Users/miraichan/Desktop/NewProject/BeenThere/PlaceShareExtension/ShareViewModel.swift:79:5: warning: Cyclomatic Complexity Violation: Function should have complexity 10 or less; currently complexity is 20 (cyclomatic_complexity)
@@ -805,22 +805,22 @@ Linting 'MarkAttendedSheet.swift' (14/24)
 Linting 'UpcomingViewModel.swift' (15/24)
 Linting 'MainTabView.swift' (16/24)
 Linting 'EmptyStateView.swift' (17/24)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Features/Places/AttendedView.swift:20:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 228 characters (line_length)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Features/Places/AttendedView.swift:20:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 228 characters (line_length)
 Linting 'StarRatingView.swift' (18/24)
 Linting 'OnboardingPageView.swift' (19/24)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Features/Places/AddEditShowViewModel.swift:80:42: warning: Unused Closure Parameter Violation: Unused parameter in a closure should be replaced with _ (unused_closure_parameter)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Features/Places/ShowRowView.swift:31:30: warning: Colon Spacing Violation: Colons should be next to the identifier when specifying a type and next to the key in dictionary literals (colon)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Features/Places/AddEditShowViewModel.swift:80:42: warning: Unused Closure Parameter Violation: Unused parameter in a closure should be replaced with _ (unused_closure_parameter)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Features/Places/ShowRowView.swift:31:30: warning: Colon Spacing Violation: Colons should be next to the identifier when specifying a type and next to the key in dictionary literals (colon)
 Linting 'OnboardingNotificationsPage.swift' (20/24)
 Linting 'OnboardingView.swift' (21/24)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Features/Places/UpcomingView.swift:67:9: warning: Closure Parameter Position Violation: Closure parameters should be on the same line as opening brace (closure_parameter_position)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Features/Places/UpcomingView.swift:20:12: warning: Opening Brace Spacing Violation: Opening braces should be preceded by a single space and on the same line as the declaration (opening_brace)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Features/Places/UpcomingView.swift:67:9: warning: Closure Parameter Position Violation: Closure parameters should be on the same line as opening brace (closure_parameter_position)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Features/Places/UpcomingView.swift:20:12: warning: Opening Brace Spacing Violation: Opening braces should be preceded by a single space and on the same line as the declaration (opening_brace)
 Linting 'FamilyPlace.swift' (22/24)
 Linting 'AppStrings.swift' (23/24)
 Linting 'SettingsViewModel.swift' (24/24)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Features/Onboarding/OnboardingNotificationsPage.swift:38:72: warning: Unused Closure Parameter Violation: Unused parameter in a closure should be replaced with _ (unused_closure_parameter)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Resources/AppStrings.swift:63:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 144 characters (line_length)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Resources/AppStrings.swift:65:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 149 characters (line_length)
-/Users/miraichan/Desktop/NewProject/BeenThere/BeenThereBerlin/Features/Onboarding/OnboardingView.swift:45:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 146 characters (line_length)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Features/Onboarding/OnboardingNotificationsPage.swift:38:72: warning: Unused Closure Parameter Violation: Unused parameter in a closure should be replaced with _ (unused_closure_parameter)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Resources/AppStrings.swift:63:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 144 characters (line_length)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Resources/AppStrings.swift:65:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 149 characters (line_length)
+/Users/miraichan/Desktop/NewProject/BeenThere/BeenThere/Features/Onboarding/OnboardingView.swift:45:1: warning: Line Length Violation: Line should be 140 characters or less; currently it has 146 characters (line_length)
 Done linting! Found 20 violations, 0 serious in 24 files.
 
 ExtractAppIntentsMetadata (in target 'BeenThere' from project 'BeenThere')

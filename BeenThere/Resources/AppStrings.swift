@@ -99,7 +99,7 @@ public enum AppStrings {
   public static let savePlacesPlanning: LocalizedStringResource = "Save places you're planning to visit"
   
   // SettingsViewModel
-  public static let myPlacesHistoryTitle: LocalizedStringResource = "My BeenThereBerlin Places History\n\n"
+  public static let myPlacesHistoryTitle: LocalizedStringResource = "My BeenThere Places History\n\n"
   public static let noPlacesLogged: LocalizedStringResource = "No Places Logged"
   
   // Share Extension
@@ -124,7 +124,7 @@ public enum AppStrings {
     public static let calendar = "calendar"
     public static let mapFill = "map.fill"
     public static let starCircleFill = "star.circle.fill"
-    public static let locationIcon = "mappin.and.ellipse"
+    public static let locationIcon = "mappin"
   }
   
   // Empty string

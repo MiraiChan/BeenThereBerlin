@@ -1,6 +1,6 @@
 //
 //  ShareViewController.swift
-//  BeenThereBerlin
+//  BeenThere
 //
 //  Created by Almira Khafizova on 28.08.26.
 //

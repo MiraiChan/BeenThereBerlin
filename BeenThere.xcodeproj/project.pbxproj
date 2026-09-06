@@ -48,7 +48,7 @@
 			);
 			target = 016AD851303B7CCC00D5DD42 /* PlaceShareExtension */;
 		};
-		016AD865303B7F4900D5DD42 /* Exceptions for "BeenThereBerlin" folder in "PlaceShareExtension" target */ = {
+		016AD865303B7F4900D5DD42 /* Exceptions for "BeenThere" folder in "PlaceShareExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Model/FamilyPlace.swift,
@@ -69,12 +69,12 @@
 			path = PlaceShareExtension;
 			sourceTree = "<group>";
 		};
-		01B6312C2FEFC2BE00681DA2 /* BeenThereBerlin */ = {
+		01B6312C2FEFC2BE00681DA2 /* BeenThere */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				016AD865303B7F4900D5DD42 /* Exceptions for "BeenThereBerlin" folder in "PlaceShareExtension" target */,
+				016AD865303B7F4900D5DD42 /* Exceptions for "BeenThere" folder in "PlaceShareExtension" target */,
 			);
-			path = BeenThereBerlin;
+			path = BeenThere;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -101,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				016AD862303B7D1600D5DD42 /* BeenThere.entitlements */,
-				01B6312C2FEFC2BE00681DA2 /* BeenThereBerlin */,
+				01B6312C2FEFC2BE00681DA2 /* BeenThere */,
 				016AD853303B7CCC00D5DD42 /* PlaceShareExtension */,
 				01B6312B2FEFC2BE00681DA2 /* Products */,
 			);
@@ -157,7 +157,7 @@
 				016AD85B303B7CCC00D5DD42 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				01B6312C2FEFC2BE00681DA2 /* BeenThereBerlin */,
+				01B6312C2FEFC2BE00681DA2 /* BeenThere */,
 			);
 			name = BeenThere;
 			packageProductDependencies = (

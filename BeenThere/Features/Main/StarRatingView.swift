@@ -1,6 +1,6 @@
 //
 //  StarRatingView.swift
-//  BeenThereBerlin
+//  BeenThere
 //
 //  Created by Almira Khafizova on 29.07.26.
 //

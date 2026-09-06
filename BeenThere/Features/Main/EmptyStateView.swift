@@ -1,6 +1,6 @@
 //
 //  EmptyStateView.swift
-//  BeenThereBerlin
+//  BeenThere
 //
 //  Created by Almira Khafizova on 06.08.26.
 //

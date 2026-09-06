@@ -1,6 +1,6 @@
 //
 //  ShareURLParser.swift
-//  BeenThereBerlin
+//  BeenThere
 //
 //  Created by Almira Khafizova on 03.09.26.
 //

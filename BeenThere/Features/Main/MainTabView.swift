@@ -1,6 +1,6 @@
 //
 //  MainTabView.swift
-//  BeenThereBerlin
+//  BeenThere
 //
 //  Created by Almira Khafizova on 29.06.26.
 //

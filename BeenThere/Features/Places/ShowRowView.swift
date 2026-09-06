@@ -1,6 +1,6 @@
 //
 //  ShowRowView.swift
-//  BeenThereBerlin
+//  BeenThere
 //
 //  Created by Almira Khafizova on 03.07.26.
 //
@@ -14,10 +14,14 @@ struct ShowRowView: View {
         .font(.headline)
       
       if place.address.hasPrefix("http") {
-        Label(AppStrings.location, systemImage: AppStrings.Icons.locationIcon)
-          .font(.subheadline)
-          .foregroundStyle(.secondary)
-          .padding(.bottom, 10)
+        HStack(alignment: .center, spacing: 4) {
+          Image(systemName: AppStrings.Icons.locationIcon)
+            .imageScale(.small)
+          Text(AppStrings.location)
+        }
+        .font(.subheadline)
+        .foregroundStyle(.secondary)
+        .padding(.bottom, 10)
       } else {
         Text(place.address)
           .font(.subheadline)

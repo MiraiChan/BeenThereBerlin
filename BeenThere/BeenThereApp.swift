@@ -1,6 +1,6 @@
 //
-//  BeenThereBerlinApp.swift
-//  BeenThereBerlin
+//  BeenThereApp.swift
+//  BeenThere
 //
 //  Created by Almira Khafizova on 27.06.26.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct BeenThereBerlinApp: App {
+struct BeenThereApp: App {
   
   @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = false
   
