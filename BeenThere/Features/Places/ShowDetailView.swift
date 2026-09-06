@@ -15,7 +15,6 @@ struct ShowDetailView: View {
   @Environment(\.dismiss) private var dismiss
   @State private var showingEditSheet = false
   @State private var showingDeleteAlert = false
-  @State private var newActivityEntry = AppStrings.empty
   
   var body: some View {
     List {
@@ -36,6 +35,7 @@ struct ShowDetailView: View {
               )
             ) {
               Marker(place.placeName, coordinate: CLLocationCoordinate2D(latitude: lat, longitude: lon))
+                .tint(Color.accentColor)
             }
             
             Button {
@@ -116,23 +116,6 @@ struct ShowDetailView: View {
               Text(activity)
             }
           }
-          .onDelete { indexSet in
-            place.activities.remove(atOffsets: indexSet)
-          }
-          .onMove { source, destination in
-            place.activities.move(fromOffsets: source, toOffset: destination)
-          }
-        }
-        HStack {
-          TextField(AppStrings.addActivityLowercase, text: $newActivityEntry)
-          Button(AppStrings.add) {
-            let trimmed = newActivityEntry
-              .trimmingCharacters(in: .whitespaces)
-            guard !trimmed.isEmpty else { return }
-            place.activities.append(trimmed)
-            newActivityEntry = AppStrings.empty
-          }
-          .disabled(newActivityEntry.trimmingCharacters(in: .whitespaces).isEmpty)
         }
       }
       .appRowBackground()
